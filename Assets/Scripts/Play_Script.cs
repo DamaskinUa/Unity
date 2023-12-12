@@ -8,7 +8,7 @@ public class Play_Script : MonoBehaviour
     // стартовое время и добавочное время
     static double start_time = 7, bonuse_add_time = 4;
 
-    // кол. хп орка (изначально - 10, с каждым респауном увеличивается), счёт игрока, урон игрока
+    // количество хп орка (изначально - 10, с каждым респауном увеличивается), счёт игрока, урон игрока
     // game over: 0 - играем, 1 - проиграли, 2 - выход в меню
     int HP, score = 0, damage = 1, respawm, settings_status, menu_status, game_over, skin_num, score_to_ads, resume_count;
     double HP_max, time;
